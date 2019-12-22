@@ -43,3 +43,6 @@ bash <(curl -L -s  https://raw.githubusercontent.com/RManOfCN/crack-v2ray-sspane
 --panelurl sspanel网站地址 --panelkey xxx --nodeid xxx \
 --downwithpanel 1 --speedtestrate 6 --paneltype 0 --usemysql 0
 ```  
+systemctl start v2ray  
+systemctl enable v2ray  
+systemctl status v2ray  
