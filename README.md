@@ -17,6 +17,7 @@
           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
    ```  
+service nginx restart
 
 ## 前端sspanel设置  
   * 普通端口设置  
