@@ -31,11 +31,11 @@
   
   * 复用端口设置 (本教程设置)  
   ```  
-  // WS + TLS (Caddy 提供)
+  // WS + TLS
   节点IP;0;2;tls;ws;path=/v2ray|host=Nginx中做端口转发的网站|inside_port=10000|outside_port=443
   ```
 
-
+## 节点安装V2ray
 
 ```  
 bash <(curl -L -s  https://raw.githubusercontent.com/RManOfCN/crack-v2ray-sspanel-v3-mod_Uim-plugin/master/install-release.sh) \
