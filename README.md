@@ -46,3 +46,20 @@ bash <(curl -L -s  https://raw.githubusercontent.com/RManOfCN/crack-v2ray-sspane
 systemctl start v2ray  
 systemctl enable v2ray  
 systemctl status v2ray  
+
+## 在配置文件中修改V2ray内存占用  
+Refer: https://www.v2ray.com/chapter_02/env.html
+
+```
+    "levels": {
+      "0": {
+        "connIdle": 300,
+        "downlinkOnly": 5,
+        "handshake": 4,
+        "statsUserDownlink": true,
+        "statsUserUplink": true,
+        "uplinkOnly": 2,
+	"bufferSize": 4
+      }
+    },
+```  
